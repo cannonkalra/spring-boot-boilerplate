@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: c4n
+  logging:
+    level:
+      org.springframework.web: DEBUG
+      org.hibernate: DEBUG
+    pattern:
+      console: "%d{yyyy-MM-dd HH:mm:ss:ms} - %msg%n"
