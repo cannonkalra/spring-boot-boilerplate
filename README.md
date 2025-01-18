@@ -1,11 +1,17 @@
 ```sh
+# Enable Corepack from Nodejs
 corepack enable
 yarn set version stable
 ```
 
 
 ```sh
+# Create React
 yarn create vite ./ --template react-swc-ts
+
+# Tailwind
+yarn add -D tailwindcss postcss autoprefixer
+yarn tailwindcss init -p
 ```
 
 
